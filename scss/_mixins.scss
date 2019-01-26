@@ -13,6 +13,6 @@
 @mixin main-font() {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-@mixin sub-font() {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+@mixin secondary-font() {
+  font-family: Arial, sans-serif;
 }

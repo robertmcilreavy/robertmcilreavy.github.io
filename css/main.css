@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .bg-primary {
@@ -82,7 +82,7 @@ img::-moz-selection {
 #mainNav {
   background-color: #fff;
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -164,45 +164,41 @@ header.image-cycle-2 {
   background-image: url("../img/header-cycle-2.jpg");
 }
 
-header.masthead {
+header.master {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-position: center center;
   color: rgba(255, 255, 255, 0.7);
-  background-color: #1b1e21;
+  background-color: #343a40;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-header.masthead hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
+header.master h1 {
+  font-size: 2.5rem;
 }
-header.masthead h1 {
-  font-size: 2rem;
-}
-header.masthead p {
+header.master p {
   font-weight: 300;
 }
 @media (min-width: 768px) {
-  header.masthead p {
-    font-size: 2.5rem;
+  header.master p {
+    font-size: 3rem;
   }
 }
 @media (min-width: 992px) {
-  header.masthead {
+  header.master {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  header.masthead h1 {
-    font-size: 3rem;
+  header.master h1 {
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 1200px) {
-  header.masthead h1 {
+  header.master h1 {
     font-size: 4rem;
   }
 }
@@ -220,7 +216,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .btn-xl {
@@ -233,7 +229,7 @@ header.masthead p {
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #dc640e !important;
+  background-color: #ecd83e !important;
 }
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;

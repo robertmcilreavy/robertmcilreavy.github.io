@@ -8,7 +8,6 @@ html {
 
 body {
   @include main-font;
-
 }
 
 hr {
@@ -35,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  @include sub-font;
+  @include secondary-font;
 }
 
 .bg-primary {
